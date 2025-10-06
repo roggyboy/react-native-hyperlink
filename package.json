@@ -1,6 +1,6 @@
 {
 	"name": "react-native-hyperlink",
-	"version": "0.0.22",
+	"version": "0.0.22-embriq.1",
 	"description": "A <Hyperlink /> component for react-native to make urls, fuzzy links, emails etc clickable",
 	"main": "dist/commonjs/index.js",
 	"module": "dist/module/index.js",
@@ -26,7 +26,6 @@
 		"test": "jest",
 		"typescript": "tsc --noEmit",
 		"lint": "eslint \"**/*.{js,ts,tsx}\"",
-		"prepare": "bob build",
 		"release": "release-it",
 		"example": "yarn --cwd example",
 		"bootstrap": "yarn example && yarn && yarn example pods"
